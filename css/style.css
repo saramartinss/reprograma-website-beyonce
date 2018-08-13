@@ -1,0 +1,36 @@
+body {
+    background-image: url(../img/fundo.png);
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: #5D1277;
+}
+
+p {
+    color: #4f4f4f;
+}
+
+.caixa {
+    background-color: white;
+    width: 40%;
+    margin: 50px auto 0 auto;
+    text-align: center;
+    padding: 80px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .4);
+}
+
+a {
+    text-decoration: none;
+}
+
+#bey {
+    width: 160px;
+}
+
+.icone img {
+    width: 60px;
+    margin:  25px;
+}
