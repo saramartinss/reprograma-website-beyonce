@@ -26,11 +26,20 @@ a {
     text-decoration: none;
 }
 
-#bey {
+.bey {
     width: 160px;
 }
 
 .icone img {
     width: 60px;
     margin:  25px;
+}
+
+footer {
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    margin-top: -70px;
+    font-size: 10pt;
+    color: #5D1277;
 }
