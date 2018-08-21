@@ -1,0 +1,82 @@
+body {
+    background-image: url(../img/fundo.png);
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: #5D1277;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+p {
+    color: #4f4f4f;
+    font-size: 16px;
+}
+
+.caixa {
+    background-color: white;
+    width: 350px;
+    height: 300px;
+    margin: 80px auto 0 auto;
+    text-align: center;
+    padding: 80px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .4);
+}
+
+a {
+    text-decoration: none;
+}
+
+.bey {
+    width: 25%;
+}
+
+.icone img {
+    width: 11%;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+footer {
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #5D1277;
+}
+
+@media (max-width: 768px) {
+
+    .caixa {
+        width: 100vw;
+        margin: 10% auto;
+        height: 30%;
+    }
+
+    .bey {
+        display: inline-block;
+        width: 20vw;
+        margin-right: 20px;
+    }
+
+    .texto {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .texto h1 {
+        font-size: 22px;
+    }
+
+    .icone {
+        width: 70vw;
+        margin: 0 auto;
+    }
+
+    footer {
+        margin-top: 20px;   
+    }
+}
